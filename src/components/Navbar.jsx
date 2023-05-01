@@ -16,7 +16,7 @@ export const Navbar = () => {
  
    return (
   
-    <div className="absolute  w-full text-white flex justify-between items-center px-2 sm:px-6 md:px-10 pt-4 z-50">
+    <div className="absolute  w-screen text-white flex justify-between items-center px-2 sm:px-6 md:px-10 pt-4 z-50">
         <Link to='/'>
         <div className=' text-xl sm:text-2xl md:text-4xl font-bold tracking-wider text-red-600'>Tudum</div>
         </Link>
